@@ -1,0 +1,276 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Telugu', sans-serif;
+    font-family: 'Dancing Script', cursive;
+ }
+
+ ul {
+    list-style: none;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ h1 {
+    font-size: 5rem;
+ }
+
+ h2 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+ }
+
+ h3 {
+    font-size: 2.3rem;
+ }
+
+ .navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid red;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+ }
+
+ .logo-name {
+    display: flex;
+    border: 1px solid black;
+   
+ }
+
+ .logo-name:hover{
+    background-color: black;
+    color: aqua;
+ }
+
+ .logo-name  h3{
+    /* padding: 1rem; */
+    /* padding-left: -1rem; ; */
+    vertical-align: middle;
+    margin-top: 1rem;
+    margin-left: -1rem;
+
+ }
+
+ .logo-name img{
+    width: 2rem;
+    height: 2rem;
+    /* vertical-align: middle; */
+    margin: 1rem;
+ }
+
+ .navigation-list {
+    display: flex;
+    margin-right: 2rem;
+ }
+
+ .navigation-list li {
+    padding: 1rem;
+    border: 1px solid red;
+    margin: 0.3rem;
+ }
+
+ .navigation-list-element:hover {
+
+    border-bottom: 3px solid aqua;
+    color: aquamarine;
+    /* font-size: 2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out; */
+
+
+ }
+
+ .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    margin: auto;
+     
+    border: 1px solid black;
+     
+    justify-content: center;
+    margin: 0 auto;
+     
+    
+    padding: 1rem;
+     
+
+}
+
+.section-1-intro{
+    border: 1px solid black;
+    padding: 2rem;
+    margin-right: 8rem;
+
+     
+}
+
+.section-1-intro p{
+    font-size: 3rem;
+}
+
+.section-1-intro button {
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.section-1-intro ul {
+    display: flex;
+    border: 1px solid yellow;
+
+}
+
+.section-1-intro li {
+    font-size: 3rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+     
+    margin: 1.5rem;
+    background-color: aqua;
+}
+
+
+
+.section-1-img img {
+    width: 33rem;
+    height: 33rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    border: 1px solid peru;
+    border-radius: 50%;
+}
+
+/* Section-2 */
+
+.section-2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.section-2 h2 {
+    margin: 2rem;
+}
+
+.section-2-profile {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    padding: 2rem;
+}
+
+.section-2-profile img{
+    width: 20%;
+    height: 100%;
+    border: 1px solid blue;
+    border-radius: 1.5rem;
+    /* padding: 2rem; */
+    margin: 2rem;
+}
+
+.section-2-profile-detail {
+    border: 1px solid black;
+    text-align:left;
+    width: 60%;
+    padding: 1.5rem;
+    margin-left: 8rem;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+#profile-role {
+    font-size: 1.3rem;
+    font-weight: bold;
+    /* font-weight: 800; */
+
+}
+
+.section-2-profile-detail p{
+    font-size: 1.2rem;
+}
+
+.section-2-profile-detail-contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.section-2-profile-detail-contact li {
+    padding: 0.5rem;
+}
+
+.section-2-profile-detail button {
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+}
+
+.section-2-profile-detail button:hover{
+   
+    background-color: aquamarine;
+}
+
+/* Section-3 */
+
+.section-3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: flex; */
+}
+
+.section-3-skill img{
+    width: 2rem;
+    
+
+}
+
+.section-3-skill li {
+    padding: 1.5rem;
+    border: 2px solid red;
+    margin: 2rem;
+    text-align: center;
+    font-size: 3.5rem;
+    
+}
+
+/* .logo-size{
+    font-size: 10rem;
+} */
+
+#logo-size {
+    font-size: 14rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.skill-top{
+    display: flex;
+}
+
+.skill-bottom {
+    display: flex;
+}
