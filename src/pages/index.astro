@@ -1,19 +1,27 @@
 ---
-import Layout from '../layouts/Layout.astro';
+
 import Card from '../components/Card.astro';
-import { skillsData } from '../constant/data.js';
+import { skillsData, projectsData } from '../constant/data';
+import Layout from '../layouts/Layout.astro';
 ---
 
 
 <Layout title="Prashant Mishra">
-  <main>
-    <h1>Prashant Mishra</h1>
-    <p>
+  <main class="mx-auto p-4 w-full max-w-[calc(100%-2rem)] text-white text-[20px] leading-6">
+    <h1 class="text-6xl text-black flex justify-center mb-0 leading-[68px]">
+      Prashant Mishra
+    </h1>
+    <p class="tracking-widest font-Outfit text-black text-sm mt-2 text-center">
       Front-End Developer | Web (React.js) & Mobile (React Native)
     </p>
 
+
     <!-- Skills -->
-    <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+    <section class="pt-10 pb-8">
+    <h2 class="mt-8 text-black text-2xl font-semibold">Technical Skill Set</h2>
+    <h6 class="mt-2 text-gray-600 text-sm font-medium">Constantly keeping myself updated with the latest tech in frontend space!</h6>
+
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {skillsData.map(skill => (
         <Card
           title={skill.title}
@@ -21,39 +29,23 @@ import { skillsData } from '../constant/data.js';
           href={skill.href}
         />
       ))}
+    </div>
+    </section>
+
+    <!--  projects-->
+    <section class="pt-10 pb-8">
+      <h2 class="mt-8 text-black text-2xl font-semibold">Projects</h2>
+      <h6 class="mt-2 text-gray-600 text-sm font-medium">A few of my public web-design projects!</h6>
+
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {projectsData.map(skill => (
+          <Card
+            title={skill.title}
+            body={skill.body}
+            href={skill.href}
+          />
+        ))}
+      </div>
     </section>
   </main>
 </Layout>
-
-<style>
-    main {
-        margin: auto;
-        padding: 1rem;
-        width: 800px;
-        max-width: calc(100% - 2rem);
-        color: white;
-        font-size: 20px;
-        line-height: 1.6;
-    }
-
-    h1 {
-        font-size: 68px;
-        color: black;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 0;
-        line-height: 68px;
-    }
-
-    p {
-        letter-spacing: 2px;
-        color: black;
-        font-size: 16px;
-        margin-top: 0.5rem;
-        text-align: center;
-    }
-
-    section {
-        margin-top: 2rem;
-    }
-</style>
