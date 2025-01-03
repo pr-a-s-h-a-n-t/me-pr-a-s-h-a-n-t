@@ -1,0 +1,45 @@
+:root {
+    --accent: 136, 58, 234;
+    --accent-light: 224, 204, 250;
+    --accent-dark: 49, 10, 101;
+    --accent-gradient: linear-gradient(45deg,
+            rgb(var(--accent)),
+            rgb(var(--accent-light)) 30%,
+            white 60%);
+}
+
+html {
+    font-family: system-ui, sans-serif;
+    background-size: 224px;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+code {
+    font-family: "Kanit", serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Outfit", serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p,
+li,
+a {
+    font-family: "Kanit", serif;
+
+}
