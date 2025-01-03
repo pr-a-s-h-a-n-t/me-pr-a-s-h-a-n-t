@@ -1,6 +1,7 @@
 export const skillsData = [
   {
     title: 'HTML5 & CSS3',
+    exp: '2.5 Years',
     body: 'Experienced in building responsive and accessible user interfaces using modern HTML5 and CSS3.',
     href: '#html-css-skills',
   },
@@ -11,26 +12,31 @@ export const skillsData = [
   // },
   {
     title: 'JavaScript (ES6+)',
+    exp: '2.5 Years',
     body: 'Skilled in writing clean and efficient code using modern JavaScript (ES6+).',
     href: '#javascript-skills',
   },
   {
     title: 'React.js',
+    exp: '2 Years',
     body: 'Specialized in developing dynamic and interactive web applications with React.js, leveraging hooks, context, and routing.',
     href: '#react-skills',
   },
   {
     title: 'React Native',
+    exp: '1.5 Years',
     body: 'Experienced in creating cross-platform mobile applications with React Native, integrating APIs, push notifications, and deep linking.',
     href: '#react-native-skills',
   },
   {
     title: 'Redux',
+    exp: '2 Years',
     body: 'Efficient in managing application state using Redux Toolkit, Redux-Saga, and Redux-Thunk for complex workflows.',
     href: '#redux-skills',
   },
   {
     title: 'Next.js',
+    exp: '1 Years',
     body: 'Experienced in building server-rendered and static web applications using Next.js for optimal performance.',
     href: '#nextjs-skills',
   },
